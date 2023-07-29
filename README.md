@@ -819,10 +819,10 @@ Aşağıda, `THYAO.IS` hisse senedi için 12 analistin 1 yıllık fiyat tahminle
 
 ![](/imgs/senaryo_ongoru.PNG)
 
-İki tane durum belirleyelim: Yükselecek ve Düşecek. Bu olasılıklar ise sırasıyla %55 ve %45 olsun. Bu senaryoda beklenen getiri, $E[r_{THYAO}] = (0.55 x 0.4879) + (0.35 x (-0.4659)) = 0.105$ veya %10.5'tir.
+İki tane durum belirleyelim: Yükselecek ve Düşecek. Bu olasılıklar ise sırasıyla %55 ve %45 olsun. Bu senaryoda beklenen getiri, $E[r_{THYAO}] = (0.55 x 0.4879) + (0.45 x (-0.4659)) = 0.059$ veya %5.9'dur.
 
 ```python
-durum_dusecek_olasilik = 0.35
+durum_dusecek_olasilik = 0.45
 getiri_dusecek = -0.4659
 durum_yukselecek_olasilik = 0.55
 getiri_yukselecek = 0.4879
